@@ -171,16 +171,39 @@ nav:
     # - Philosophy: philosophy.md
     # - Alternatives: alternatives.md
     # - License: license.md
-
-    - Design:
+    - Contents:
+      - Introduction:
+        - introduction/index.md
+      - Structure of a Sprint:
+        - structure-of-a-sprint/index.md
+      - Source Control:
+        - source-control/index.md
+        - Commit Best Practices: source-control/commit-best-practices.md
+        - Component Versioning: source-control/component-versioning.md
+        - Merge strategies: source-control/merge-strategies.md
+        - Naming Branches: source-control/naming-branches.md
+        - Working with secrets: source-control/working-with-secrets.md
+      - Git Guidence:
+        - git-guidance/index.md
+      - Pull Requests:
+        - pull-requests/index.md
+        - Author Guidance: pull-requests/author-guidance.md
+        - Reviewer Guidance: pull-requests/reviewer-guidance.md
+        - Pull Request Template: pull-requests/pr-template.md
+      - Code Reviews:
+        - code-reviews/index.md
+        - JavaScript/TypeScript Code Reviews: code-reviews/js-ts-code-review.md
       - Design:
         - design/README.md
-        - Design Patterns: design/design-patterns/README.md
+        - Design Patterns:
+          - design/design-patterns/README.md
+          - Object-Oriented Design Reference: design/design-patterns/object-oriented-design-reference/README.md
+          - REST API Design Guidance: design/design-patterns/rest-api-design-guidance/README.md
         - Design Reviews: design/design-reviews/README.md
-    - Developer:
-      - developer-experience/README.md
-           
-    
+      - Developer:
+        - developer-experience/README.md
+
+
     - Changelog:
       - changelog/index.md
       - How to upgrade: upgrade.md
