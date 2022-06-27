@@ -181,7 +181,6 @@ nav:
       - developer-experience/README.md
  
     - Agile:
-      - Structure of a Sprint: structure-of-sprint.md
       - Agile:
         - agile/README.md
         - What is agile: agile/what-is-agile/README.md
@@ -220,7 +219,19 @@ nav:
           - Definition of Ready: agile/team-agreements/definition-of-ready.md
           - Team Manifesto: agile/team-agreements/team-manifesto.md
           - Working Agreements: agile/team-agreements/working-agreements.md
-    
+      - Project Planning and Management:
+        - project-planning-and-management/README.md
+        - Management:
+          - project-planning-and-management/management/why-project-management-important.md
+          - Phases:
+            - project-planning-and-management/management/phases/phases.md
+            - Initiating: project-planning-and-management/management/phases/initiating.md
+            - Planning: project-planning-and-management/management/phases/planning.md
+            - Execution: project-planning-and-management/management/phases/execution.md
+            - Monitoring: project-planning-and-management/management/phases/monitoring.md
+            - Closing: project-planning-and-management/management/phases/closing.md
+        - Structure of a Sprint: project-planning-and-management/structure-of-sprint.md
+
     - Changelog:
       - changelog/index.md
       - How to upgrade: upgrade.md

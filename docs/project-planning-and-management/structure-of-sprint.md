@@ -6,6 +6,8 @@ The purpose of this document is to:
 - Provide content in a logical structure which reflects the engineering process
 - Extensible hierarchy to allow teams to share deep subject-matter expertise
 
+![Structure Of Sprint](./images/structure-of-sprint.png)
+
 ## The first week of a CSE Project
 
 ### Before starting the project
