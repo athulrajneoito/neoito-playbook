@@ -39,6 +39,7 @@
       {% set class = class ~ " md-nav__item--section" %}
     {% endif %}
 
+
     <!-- Render item with nested items -->
     <li class="{{ class }} md-nav__item--nested">
 
@@ -55,7 +56,9 @@
 
       <!-- Render toggle to expand nested items -->
       {% if not indexes %}
-      <span></span>
+
+
+
       <!-- Render link to index page + toggle -->
       {% else %}
         {% set index = indexes | first %}
@@ -64,7 +67,9 @@
           <a href="{{ index.url | url }}">{{ nav_item.title }}</a>
 
           <!-- Only render toggle if there's at least one more page -->
+          {% if nav_item.children | length > 1 %}
 
+          {% endif %}
         </div>
       {% endif %}
 
@@ -74,12 +79,15 @@
         aria-label="{{ nav_item.title }}"
         data-md-level="{{ level }}"
       >
+
         <ul class="md-nav__list" data-md-scrollfix>
 
           <!-- Render nested item list -->
           {% for nav_item in nav_item.children %}
             {% if not indexes or nav_item != indexes | first %}
-              {{ render(nav_item, path ~ "_" ~ loop.index, level + 1) }}
+              {% if level != 3 %}
+               {{ render(nav_item, path ~ "_" ~ loop.index, level + 1) }}
+              {% endif %}
             {% endif %}
           {% endfor %}
         </ul>
@@ -88,7 +96,6 @@
 
   <!-- Currently active page -->
   {% elif nav_item == page %}
-    <span></span>
 
   <!-- Main navigation item -->
   {% else %}

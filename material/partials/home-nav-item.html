@@ -13,12 +13,6 @@
       {% set class = class ~ " md-nav__item--section" %}
     {% endif %}
     <li class="{{ class }} md-nav__item--nested">
-      {% set checked = "checked" if nav_item.active %}
-      {% if "navigation.expand" in features and not checked %}
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="{{ path }}" type="checkbox" id="{{ path }}" checked>
-      {% else %}
-        <input class="md-nav__toggle md-toggle" data-md-toggle="{{ path }}" type="checkbox" id="{{ path }}" {{ checked }}>
-      {% endif %}
       {% set indexes = [] %}
       {% if "navigation.indexes" in features %}
         {% for nav_item in nav_item.children %}
@@ -28,26 +22,28 @@
         {% endfor %}
       {% endif %}
       {% if not indexes %}
-      <span></span>
       {% else %}
         {% set index = indexes | first %}
         {% set class = "md-nav__link--active" if index == page %}
         <div class="md-nav__link md-nav__link--index {{ class }}">
           <a href="{{ index.url | url }}">{{ nav_item.title }}</a>
+          {% if nav_item.children | length > 1 %}
+          {% endif %}
         </div>
       {% endif %}
       <nav class="md-nav" aria-label="{{ nav_item.title }}" data-md-level="{{ level }}">
         <ul class="md-nav__list" data-md-scrollfix>
           {% for nav_item in nav_item.children %}
             {% if not indexes or nav_item != indexes | first %}
-              {{ render(nav_item, path ~ "_" ~ loop.index, level + 1) }}
+              {% if level != 3 %}
+               {{ render(nav_item, path ~ "_" ~ loop.index, level + 1) }}
+              {% endif %}
             {% endif %}
           {% endfor %}
         </ul>
       </nav>
     </li>
   {% elif nav_item == page %}
-    <span></span>
   {% else %}
     <li class="{{ class }}">
       <a href="{{ nav_item.url | url }}" class="md-nav__link">
