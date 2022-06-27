@@ -256,6 +256,20 @@ nav:
     - Changelog:
       - changelog/index.md
       - How to upgrade: upgrade.md
+
+    - DevOps: 
+      - Introduction: 
+        - devops/README.md
+      - CI/CD: 
+        - devops/cicd/README.md
+
+    - Source Control:
+      - Goals: source-control/README.md
+      - Git Guidance: 
+        - source-control/git_guidance/README.md
+        - Basic Git Workflow: source-control/git_guidance/git-workflow/README.md
+
+          
   # - Setup:
   #   - Changing the colors: setup/changing-the-colors.md
   #   - Changing the fonts: setup/changing-the-fonts.md
