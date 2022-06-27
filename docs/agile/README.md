@@ -13,4 +13,8 @@ For example:
 - They find that certain features perform poorly in production and make plans to improve performance.
 - Someone on the team hears of a new practice and the team decides to try it out for a few sprints.
 
+# Workflow
+
+![Work Flow](./images/agile-flow.png)
+
 Teams just starting with Agile development should expect more learning opportunities. They are an invaluable part of the process because they lead to growth and improvement.

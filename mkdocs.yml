@@ -213,6 +213,10 @@ nav:
       - Project Planning and Management:
         - project-planning-and-management/README.md
         - Structure of a Sprint: project-planning-and-management/structure-of-sprint.md
+        - Planning:
+          - project-planning-and-management/planning/project-plan.md
+          - Create Project Plans: project-planning-and-management/planning/create-project-plan.md
+          - Planning Templates: project-planning-and-management/planning/planning-templates.md
         - Management:
           - project-planning-and-management/management/why-project-management-important.md
           - Phases:
@@ -222,9 +226,6 @@ nav:
             - Execution: project-planning-and-management/management/phases/execution.md
             - Monitoring: project-planning-and-management/management/phases/monitoring.md
             - Closing: project-planning-and-management/management/phases/closing.md
-        
-      - Structure of a Sprint:
-        - structure-of-a-sprint/index.md
       - Source Control:
         - source-control/index.md
         - Commit Best Practices: source-control/commit-best-practices.md
@@ -251,23 +252,14 @@ nav:
         - Design Reviews: design/design-reviews/README.md
       - Developer:
         - developer-experience/README.md
-
-
-    - Changelog:
-      - changelog/index.md
-      - How to upgrade: upgrade.md
-
-    - DevOps: 
-      - Introduction: 
+      - DevOps: 
         - devops/README.md
       - CI/CD: 
         - devops/cicd/README.md
-
-    - Source Control:
-      - Goals: source-control/README.md
-      - Git Guidance: 
-        - source-control/git_guidance/README.md
-        - Basic Git Workflow: source-control/git_guidance/git-workflow/README.md
+     
+    - Changelog:
+      - changelog/index.md
+      - How to upgrade: upgrade.md
 
           
   # - Setup:
