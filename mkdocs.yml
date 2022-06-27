@@ -173,10 +173,11 @@ nav:
     # - License: license.md
 
     - Design:
-      - Design:
-        - design/README.md
-        - Design Patterns: design/design-patterns/README.md
-        - Design Reviews: design/design-reviews/README.md
+      - design/README.md
+      - Design Patterns: 
+        - design/design-patterns/README.md
+        - Non-Functional : design/design-patterns/non-functional-requirements-capture-guide.md
+      - Design Reviews: design/design-reviews/README.md
     - Developer:
       - developer-experience/README.md
            

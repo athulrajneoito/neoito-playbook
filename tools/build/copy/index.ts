@@ -105,7 +105,7 @@ export function copyAll(
       mergeMap(file => copy({
         ...options,
         from: `${options.from}/${file}`,
-        to:   `${options.to}/${file.replace(/(\.{2}\/)+/, "")}`
+        to:   `${options.to}/${file}`
       }), 16)
     )
 }
