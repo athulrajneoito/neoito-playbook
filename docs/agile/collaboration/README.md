@@ -1,4 +1,4 @@
-#Collaboration
+# Collaboration
 
 ## Why collaboration is important
 In engagements, we aim to be highly collaborative because when we code together, we perform better, have a higher sprint velocity, and have a greater degree of knowledge sharing across the team.

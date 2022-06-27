@@ -1,4 +1,4 @@
-## **Sprint Planning Process**
+# **Sprint Planning Process**
 Here is how an agile team plans a new sprint, as part of an existing release plan:
 
 1. **Hold a retrospective meeting** to discuss the previous sprints and [lessons learned](https://monday.com/blog/project-management/lessons-learned-template/). (This template need to create)

@@ -1,4 +1,4 @@
-**Daily Standup Meeting**
+# **Daily Standup Meeting**
 
 
 Once you have the schedule down and you’ve planned your sprint, from the very beginning of the sprint you’ll gather the entire team and have every team member report on their status. There are a few components to these meetings:

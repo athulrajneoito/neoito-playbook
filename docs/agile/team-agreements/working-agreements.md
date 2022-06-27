@@ -21,7 +21,7 @@ their own, and adjust times, communication channels, branch naming policies etc.
 ## Communication
 
 - We communicate all information relevant to the team through the Project Teams channel
-- We add all [technical spikes](../../../design/design-reviews/recipes/technical-spike.md), [trade studies](../../../design/design-reviews/trade-studies/README.md), and other technical documentation to the project repository through [async design reviews in PRs](../../../design/design-reviews/recipes/async-design-reviews.md)
+- We add all [technical spikes](../../design/design-reviews/recipes/technical-spike.md), [trade studies](../../design/design-reviews/trade-studies/README.md), and other technical documentation to the project repository through [async design reviews in PRs](../../design/design-reviews/recipes/async-design-reviews.md)
 
 ## Work-life Balance
 
@@ -33,7 +33,7 @@ their own, and adjust times, communication channels, branch naming policies etc.
 ## Quality and not Quantity
 
 - We agree on a [Definition of Done](definition-of-done.md) for our user story's and sprints and live by it.
-- We follow engineering best practices like the [Code With Engineering Playbook](https://github.com/microsoft/code-with-engineering-playbook)
+- We follow engineering best practices.
 
 ## Scrum Rhythm
 
@@ -80,4 +80,4 @@ The Process Lead is responsible for leading any scrum or agile practices to enab
 - All PRs are reviewed by one person from [Customer/Partner Name] and one from Microsoft (for knowledge transfer and to ensure code and security standards are met)
 - We always review existing PRs before starting work on a new task
 - We look through open PRs at the end of stand-up to make sure all PRs have reviewers.
-- We treat documentation as code and apply the same [standards to Markdown](../../../code-reviews/recipes/markdown.md) as code
+- We treat documentation as code and apply the same standards to Markdown as code

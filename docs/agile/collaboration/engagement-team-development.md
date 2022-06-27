@@ -7,7 +7,7 @@ As it's stated in Tuckman's [team phases](https://en.wikipedia.org/wiki/Tuckman%
 
 In order to minimize the risk and set the exceptations on the right way for all parties, an identification phase is important to understand each other. Some potential steps in this phase may be as following (not limited):
 
-- [Working agreement](https://neoito-hub.github.io/code-with-engineering-playbook/agile-development/advanced-topics/team-agreements/working-agreements/)
+- [Working agreement](../team-agreements/working-agreements.md)
 - Identification of styles/preferences in communication, sharing, learning, decision making of each team member
   - Talking about necessity of pair programming
   - Decisions on backlog management & refinement meetings, weekly design sessions, social time sessions...etc.
@@ -17,7 +17,7 @@ In order to minimize the risk and set the exceptations on the right way for all 
   - Github, VSCode LiveShare, AzDevOps, necessary development tools & libraries ... more.
   - If upskilling on certain topic(s) is needed, identifying the areas and arranging code spikes for increasing the team knowledge on the regarding topic(s).
 - Identification of communication channels, feedback loops and recurrent team call slots out of regular sprint meetings
-- Introduction to [Technical Agility Team Manifesto](https://neoito-hub.github.io/code-with-engineering-playbook/agile-development/advanced-topics/team-agreements/team-manifesto/) and planning the technical delivery by aiming to keep technical debt risk minimum.
+- Introduction to [Technical Agility Team Manifesto](../team-agreements/team-manifesto.md) and planning the technical delivery by aiming to keep technical debt risk minimum.
 ## Following the Plan and Agile Debugging
 Identification phase accelerates the process of building a safe environment for every individual in the team, later on team has the required assets to follow the plan. And it is team's itself responsibility (engineers,PO,Process Lead) to debug their Agility level.
 
@@ -31,7 +31,7 @@ Just as an example, agility debugging activities may include:
   - Are "User Stories" and "Tasks" clear ?
   - Are Acceptance Criterias enough and right?
   - Is everyone ready-to-go after taking the User Story/Task?
-- Running [Efficient Retrospectives](https://neoito-hub.github.io/code-with-engineering-playbook/agile-development/core-expectations/)
+- Running [Efficient Retrospectives](../core-expectations/README.md)
 - Is the Sprint Goal clear in every iteration ?
 - Is the estimation process in the team improving over time or does it meet the delivery/workload prediction?
 

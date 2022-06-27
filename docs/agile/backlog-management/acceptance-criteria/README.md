@@ -1,4 +1,4 @@
-#Acceptance Criteria
+# Acceptance Criteria
 
 Acceptance criteria define what "Done" means by describing the conditions that the team should use to verify whether a requirement or bug fix has been fully implemented. You can capture these criteria in the work item. Clear acceptance criteria help with estimating and developing requirements and with testing.
 

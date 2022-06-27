@@ -22,7 +22,7 @@ One approach you can take to accomplish is with stickies and a spreadsheet.
 Step 1: Stack rank the features for everything in your backlog
 
 - Functional Features
-- [Non-functional Features] (docs/TECH-LEADS-CHECKLIST.md)
+- Non-functional Features
 - User Research and Design
 - Testing
 - Documentation
@@ -42,6 +42,6 @@ Step 4: Based on your capacity, you know have the options
 
 You can also leverage one of these tools by creating your epics and features and add the weeks estimates.
 
-The [Plans (Preview) feature on Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/project/navigation/preview-features?view=azure-devops) will help you make a plan. Delivery Plans provide a schedule of stories or features your team plan to deliver. Delivery Plans show the scheduled work items by a sprint (iteration path) of selected teams against a calendar view.
+The plan features on different DevOps module will help you make a plan. Delivery Plans provide a schedule of stories or features your team plan to deliver. Delivery Plans show the scheduled work items by a sprint (iteration path) of selected teams against a calendar view.
 
 Confluence JIRA, Trello, Rally, Asana, Basecamp, and Github Issues are other similar tools in the market (some are free, others you pay a monthly fee, or you can install on-prem) that you can leverage.

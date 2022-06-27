@@ -1,4 +1,4 @@
-**Ceremonies**
+# **Ceremonies**
 
 This section has links directing you to best practices for conducting the Agile ceremonies. After reading through the best practices you should have a basic understanding of the key Agile ceremonies in terms of purpose, value and best practices around conducting and facilating these ceremnonies.
 

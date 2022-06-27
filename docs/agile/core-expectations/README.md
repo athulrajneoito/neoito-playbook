@@ -1,20 +1,20 @@
-#Agile core expectations - What we expect in brief
+# Agile core expectations
 
 This section contains core expectations for agile practices in CSE:
 
 - It should stay concise and link to external documentation for details.
 - Each section contains a list of core expectations and suggestions:
-
   - **Core expectations** are what each dev team is expected to aim for.
-  - **Suggestions** *are not* expectations. They are our learned experiences for meeting those expectations and can be adopted and modified to suit the project.
+  - **Suggestions** *are not* expectations. They are our learned experience for meeting those expectations, and can be adopted and modified to suit the project.
 
 **Notes:**
 
 - We prefer the usage of "process lead" over "scrum master". It describes the same role.
-- **"Crew"**, in this document, refers to the entire team working on a project (dev team, dev lead, PM, etc.).
-- We follow Agile principles and usually Scrum.
+- **"Crew"**, in this document, refers to the entire team working on an project (dev team, dev lead, PM, etc.).
+- We follow Agile principles and usually [Scrum](https://www.scrum.org/resources/what-is-scrum)
 
 ## Overall expectations for a project
+
 - The crew is predictable in their delivery.
 - The crew makes relevant adjustments and shares these transparently.
 - Roles and Responsibilities are clarified and agreed before the project starts.
@@ -22,43 +22,51 @@ This section contains core expectations for agile practices in CSE:
 
 ## Core expectations and suggestions
 
-### → Sprints
+### Sprints
+
+___
+
 **Expectations:**
 
 - Sprint structure gives frequent opportunities for feedback and adjustment in the context of relatively small projects.
-- Sprint ceremonies should be planned to accommodate the working schedules of the team and take into consideration hard and soft time constraints.
+- Sprint ceremonies should be planned to accommodate working schedules of the team and take into consideration hard and soft time constraints.
 
 **Suggestions:**
 
-- Sprinting starts on day 1: Game plan creation, game plan review, and sharing are included in sprints and should be reflected in the backlog.
+- Sprinting starts day 1: Game plan creation, game plan review and sharing are included in sprints and should be reflected in the backlog.
 - Define a sprint goal that will be used to determine the success of the sprint.
 - Note: Sprints are usually 1 week long to increase the number of opportunities for adjustments. And minimize the risk of missing the sprint goal.
 
-### → Estimation
+### Estimation
+
+___
+
 **Expectations:**
 
-- Estimation supports the predictability of the teamwork and delivery.
-- Estimation reinforces the value of accountability to the team.
+- Estimation supports the predictability of the team work and delivery.
+- Estimation re-enforces the value of accountability to the team.
 - The estimation process is improved over time and discussed on a regular basis.
 - Estimation is inclusive of the different individuals in the team.
 
-**Suggestions:** Rough estimation is usually done for a generic SE 2 dev.
+**Suggestions:**
+Rough estimation is usually done for a generic SE 2 dev.
 
 - Example 1
   - The team use t-shirt sizes (S, M, L, XL) and agrees in advance which size fits a sprint.
-  - In this example: S, M fits a sprint, L, XL are too big for a sprint and need to be split/refined
-  - The dev lead with the support of the team roughly estimates how much S and M stories can be done in the first sprints
+  - In this example: S, M fits a sprint, L, XL too big for a sprint and need to be split / refined
+  - The dev lead with support of the team roughly estimates how much S and M stories can be done in the first sprints
   - This rough estimation is refined over time and used to as an input for future sprint planning and to adjust project end date forecasting
 - Example 2
   - The team uses a single indicator: "does this story fits in one sprint?", if not, the story needs to be split
-  - The dev lead with the support of the team roughly estimates how many stories can be done in the first sprint
+  - The dev lead with support of the team roughly estimates how many stories can be done in the first sprints
   - How many stories are done in each sprint on average is used as an input for future sprint planning and as an indicator to adjust project end date forecasting
 - Example 3
   - The team does planning poker and estimates in story points
-  - Story points are roughly used to estimate how much can be done in the next sprint
-  - The dev lead and the TPM use the past sprints and observed velocity to adjust project end date forecasting
+  - Story points are roughly used to estimate how much can be done in next sprint
+  - The dev lead and the TPM uses the past sprints and observed velocity to adjust project end date forecasting
+
 - Other considerations
-  - Estimating stories using story points in the smaller projects does not always provide the value it would in bigger ones.
+  - Estimating stories using story points in smaller project does not always provide the value it would in bigger ones.
   - Avoid converting story points or t-shirt sizes to days.
   - Measure estimation accuracy:
     - Collect data to monitor estimation accuracy and sprint completion over time to drive improvements.
@@ -68,7 +76,14 @@ This section contains core expectations for agile practices in CSE:
     - 'Same-Size' PBIs is a relative estimation approach that involves breaking items down small enough that they are roughly the same size. Velocity can be understood as a count of PBIs; this is sometimes used by teams doing continuously delivery.
     - 'Right-Size' PBIs is a relative estimation approach that involves breaking things down small enough to deliver value in a certain time period (i.e. get to Done by the end of a Sprint). This is sometimes associated with teams utilizing flow for forecasting. Teams use historical data to determine if they think they can get the PBI done within the confidence level that their historical data says they typically get a PBI done.
 
-### → Sprint planning
+**Links:**
+
+- [The Most Important Thing You Are Missing about Estimation](https://www.scrum.org/resources/blog/most-important-thing-you-are-missing-about-estimation)
+
+### Sprint planning
+
+___
+
 **Expectations:**
 
 - The planning supports Diversity and Inclusion principles and provides equal opportunities.
@@ -84,7 +99,7 @@ Consider defining a sprint goal, or list of goals for each sprint. Effective spr
 The sprint goal can be used :
 
 - At the end of each stand up meeting, to remember the north star for the Sprint and help everyone taking a step back
-- \*During the sprint review ("was the goal achieved?", "If not, why?")
+- *During the sprint review ("was the goal achieved?", "If not, why?")
 
 *Note: A simple way to define a sprint goal, is to create a User Story in each sprint backlog and name it "Sprint XX goal". You can add the bullet points in the description.*
 
@@ -115,12 +130,14 @@ The sprint goal can be used :
 
 **Links:**
 
-- [Definition of Ready](https://github.com/microsoft/code-with-engineering-playbook/blob/main/docs/agile-development/team-agreements/definition-of-ready.md)
+- [Definition of Ready](../team-agreements/definition-of-ready.md)
 - [Sprint Goal Template](https://www.scrum.org/resources/blog/five-questions-sprint-goal)
 
 *Notes: Self assignment by team members can give a feeling of fairness in how work is split in the team. Sometime, this ends up not being the case as it can give an advantage to the loudest or more experienced voices in the team. Individuals also tend to stay in their comfort zone, which might not be the right approach for their own growth.*
 
-### → Backlog
+### Backlog
+
+___
 
 **Expectations:**
 
@@ -132,40 +149,42 @@ The sprint goal can be used :
 - Consider the backlog refinement as an ongoing activity, that expands outside of the typical "Refinement meeting".
 - Technical debt is mostly due to shortcuts made in the implementation as well as the future maintenance cost as the natural result of continuous improvement. Shortcuts should generally be avoided. In some rare instances where they happen, prioritizing and planning improvement activities to reduce this debt at a later time is the recommended approach.
 
-**Links:**
-
-- [Backlog Best Practices](https://www.cwcwiki.com/wiki/Backlog_Best_Practices)
-- [Sprint Backlog](https://www.cwcwiki.com/wiki/Scrum_Guide:_Artifacts#Sprint_Backlog) This need to change
 ### Retrospectives
+
+___
+
 **Expectations:**
 
 - Retrospectives lead to actionable items that help grow the team's engineering practices. These items are in the backlog, assigned, and prioritized to be fixed by a date agreed upon (default being next retrospective).
-- Is used to ask hard questions ("we usually don't finish what we plan, let's talk about this") when necessary.
+- Is used to ask the hard questions ("we usually don't finish what we plan, let's talk about this") when necessary.
 
 **Suggestions:**
 
-- Consider [other retro formats](https://www.goodreads.com/book/show/721338.Agile_Retrospectives) (<https://miro.com/guides/retrospectives/ideas-games> ) available outside of Mad Sad Glad.
+- Consider [other retro formats](https://www.goodreads.com/book/show/721338.Agile_Retrospectives) available outside of Mad Sad Glad.
   - Gather Data: Triple Nickels, Timeline, Mad Sad Glad, Team Radar
   - Generate Insights: 5 Whys, Fishbone, Patterns and Shifts
 - Consider setting a retro focus area.
 - Schedule enough time to ensure that you can have the conversation you need to get the correct plan an action and improve how you work.
 - Bring in a neutral facilitator for project retros or retros that introspect after a difficult period.
 
-**Use the following retrospectives techniques to address specific trends that might be emerging during an engagement:**
+**Use the following retrospectives techniques to address specific trends that might be  emerging on an engagement:**
 
 **5 whys:**
 
-If a team is confronting a problem and is unsure of the exact root cause, the 5 whys exercise taken from the business analysis sector can help get to the bottom of it. For example, if a team cannot get to *Done* each Sprint, that would go at the top of the whiteboard. The team then asks why that problem exists, writing that answer in the box below.  Next, the team asks why again, but this time in response to the *why* they just identified. Continue this process until the team identifies an actual root cause, which usually becomes apparent within five steps.
+If a team is confronting a problem and is unsure of the exact root cause, the 5 whys exercise taken from the business analysis sector can help get to the bottom of it. For example, if a team cannot get to *Done* each Sprint, that would go at the top of the whiteboard. The team then asks why that problem exists, writing that answer in the box below.  Next, the team asks why again, but this time in response to the *why* they just identified. Continue this process until the team identifies an actual root cause, which usually becomes apparent within five steps.
 
-**Processes, tools, individuals, interactions, and the Definition of Done:**
+**Processes, tools, individuals, interactions and the Definition of Done:**
 
-This approach encourages team members to think more broadly.  Ask team members to identify what is going well and ideas for improvement within the categories of processes, tools, individuals/interactions, and the Definition of Done.  Then, ask team members to vote on which improvement ideas to focus on during the upcoming Sprint.
+This approach encourages team members to think more broadly.  Ask team members to identify what is going well and ideas for improvement within the categories of processes, tools, individuals/interactions, and the Definition of Done.  Then, ask team members to vote on which improvement ideas to focus on during the upcoming Sprint.
 
 **Focus:**
 
-This retrospective technique incorporates the concept of visioning. Using this technique, you ask team members where they would like to go?  Decide what the team should look like in 4 weeks, and then ask what is holding them back from that and how they can resolve the impediment.  If you are focusing on specific improvements, you can use this technique for one or two Retrospectives in a row so that the team can see progress over time.
+This retrospective technique incorporates the concept of visioning. Using this technique, you ask team members where they would like to go?  Decide what the team should look like in 4 weeks, and then ask what is holding them back from that and how they can resolve the impediment.  If you are focusing on specific improvements, you can use this technique for one or two Retrospectives in a row so that the team can see progress over time.
 
 ### Sprint Demo
+
+___
+
 **Expectations:**
 
 - Each sprint has demos that illustrate the sprint goal and how it fits in the engagement goal.
@@ -176,6 +195,8 @@ This retrospective technique incorporates the concept of visioning. Using this t
 - A demo does not have to be about running code. It can be showing documentation that was written.
 
 ## Stand-up
+
+___
 
 **Expectations:**
 
@@ -190,7 +211,6 @@ This retrospective technique incorporates the concept of visioning. Using this t
 - If someone cannot make the stand-up exceptionally: Ask them to do a written stand up in advance.
 - Stand ups should include everyone involved in the project, including the customer.
 - Projects with widely divergent time zones should be avoided if possible, but if you are on one, you should adapt the standups to meet the needs and time constraints of all team members.
-
 
 ### Documentation
 

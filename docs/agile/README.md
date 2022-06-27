@@ -1,6 +1,8 @@
-#Agile
+# Agile
 
 Agile planning is a project management style with an incremental, iterative approach. Instead of using an in-depth plan from the start of the project—typically product-related—Agile leaves room for requirement changes throughout and relies on constant end-user feedback.
+
+![Scrum Framework](./images/scrum-frame-work.png)
 
 Being Agile means learning from experience and continually improving. Agile development provides more learning cycles than traditional project planning due to the tighter process loops. Each sprint provides something new for the team to learn.
 
@@ -12,21 +14,3 @@ For example:
 - Someone on the team hears of a new practice and the team decides to try it out for a few sprints.
 
 Teams just starting with Agile development should expect more learning opportunities. They are an invaluable part of the process because they lead to growth and improvement.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Sprint rythm**
-
-
-**Scrum and kanban**
