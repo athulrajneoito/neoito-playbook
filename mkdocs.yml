@@ -182,7 +182,7 @@ nav:
         - agile/README.md
         - What is agile: agile/what-is-agile/README.md
         - Core expectations: agile/core-expectations/README.md
-        - Basics: 
+        - Basics:
           - agile/basics/README.md
           - Backlog Management: agile/backlog-management/README.md
           - Ceremonies: agile/basics/ceremonies.md
@@ -191,7 +191,7 @@ nav:
           - Sprint Review: agile/basics/sprint-review.md
           - Sprint Planning Process: agile/basics/sprint-planning-process.md
           - Champion Trust: agile/basics/champion-trust.md
-        - Backlog management: 
+        - Backlog management:
           - agile/backlog-management/README.md
           - Product backlog: https://scrumguides.org/scrum-guide.html#product-backlogagile/backlog-management/product-backlog/README.md
           - Sprint backlog: https://scrumguides.org/scrum-guide.html#sprint-backlog
@@ -237,7 +237,7 @@ nav:
         - Merge strategies: source-control/merge-strategies.md
         - Naming Branches: source-control/naming-branches.md
         - Working with secrets: source-control/working-with-secrets.md
-      - Git Guidence:
+      - Git Guidance:
         - git-guidance/index.md
       - Pull Requests:
         - pull-requests/index.md
@@ -258,14 +258,14 @@ nav:
         - developer-experience/README.md
 
 
-      - DevOps: 
-        - Introduction: 
+      - DevOps:
+        - Introduction:
           - devops/README.md
-        - CI/CD: 
+        - CI/CD:
           - devops/cicd/README.md
-     
 
-          
+
+
   # - Setup:
   #   - Changing the colors: setup/changing-the-colors.md
   #   - Changing the fonts: setup/changing-the-fonts.md
