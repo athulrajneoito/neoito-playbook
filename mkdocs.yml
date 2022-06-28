@@ -87,6 +87,10 @@ theme:
   icon:
     logo: logo
 
+watch:
+- material
+
+
 # Plugins
 # plugins:
 #   - search
@@ -252,14 +256,14 @@ nav:
         - Design Reviews: design/design-reviews/README.md
       - Developer:
         - developer-experience/README.md
+
+
       - DevOps: 
-        - devops/README.md
-      - CI/CD: 
-        - devops/cicd/README.md
+        - Introduction: 
+          - devops/README.md
+        - CI/CD: 
+          - devops/cicd/README.md
      
-    - Changelog:
-      - changelog/index.md
-      - How to upgrade: upgrade.md
 
           
   # - Setup:

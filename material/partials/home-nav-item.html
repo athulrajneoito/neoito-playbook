@@ -1,0 +1,55 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% macro render(nav_item, path, level) %}
+  {% set class = "md-nav__item" %}
+  {% if nav_item.active %}
+    {% set class = class ~ " md-nav__item--active" %}
+  {% endif %}
+  {% if nav_item.children %}
+    {% if "navigation.sections" in features and level == 1 + (
+      "navigation.tabs" in features
+    ) %}
+      {% set class = class ~ " md-nav__item--section" %}
+    {% endif %}
+    <li class="{{ class }} md-nav__item--nested">
+      {% set indexes = [] %}
+      {% if "navigation.indexes" in features %}
+        {% for nav_item in nav_item.children %}
+          {% if nav_item.is_index and not index is defined %}
+            {% set _ = indexes.append(nav_item) %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if not indexes %}
+      {% else %}
+        {% set index = indexes | first %}
+        {% set class = "md-nav__link--active" if index == page %}
+        <div class="md-nav__link md-nav__link--index {{ class }}">
+          <a href="{{ index.url | url }}">{{ nav_item.title }}</a>
+          {% if nav_item.children | length > 1 %}
+          {% endif %}
+        </div>
+      {% endif %}
+      <nav class="md-nav" aria-label="{{ nav_item.title }}" data-md-level="{{ level }}">
+        <ul class="md-nav__list" data-md-scrollfix>
+          {% for nav_item in nav_item.children %}
+            {% if not indexes or nav_item != indexes | first %}
+              {% if level != 3 %}
+               {{ render(nav_item, path ~ "_" ~ loop.index, level + 1) }}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </li>
+  {% elif nav_item == page %}
+  {% else %}
+    <li class="{{ class }}">
+      <a href="{{ nav_item.url | url }}" class="md-nav__link">
+        {{ nav_item.title }}
+      </a>
+    </li>
+  {% endif %}
+{% endmacro %}
+{{ render(nav_item, path, level) }}
