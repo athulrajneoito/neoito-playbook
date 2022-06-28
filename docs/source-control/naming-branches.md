@@ -14,4 +14,4 @@ This could translate to something as follows:
 dickinson/feature/271\_add\_more\_cowbell
 ```
 
-The example above is just that - an example. The team can choose to omit or add parts. Choosing a branch convention can depend on the development model (e.g. [trunk-based development](https://trunkbaseddevelopment.com/)), [versioning](https://neoito-hub.github.io/code-with-engineering-playbook/source-control/component-versioning/) model, tools used in managing source control, a matter of taste, etc. Focus on simplicity and reducing ambiguity; a good branch naming strategy allows the team to understand the purpose and ownership of each branch in the repository.
+The example above is just that - an example. The team can choose to omit or add parts. Choosing a branch convention can depend on the development model (e.g. [trunk-based development](https://trunkbaseddevelopment.com/)), [versioning](./component-versioning.md) model, tools used in managing source control, a matter of taste, etc. Focus on simplicity and reducing ambiguity; a good branch naming strategy allows the team to understand the purpose and ownership of each branch in the repository.

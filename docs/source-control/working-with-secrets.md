@@ -5,6 +5,6 @@ The best way to avoid leaking secrets is to store them in local/private files an
 
 *.private.config
 ```
-For more details on proper management of credentials and secrets in source control, and handling an accidental commit of secrets to source control, please refer to the [Secrets Management](https://neoito-hub.github.io/code-with-engineering-playbook/continuous-delivery/secrets-management/) document which has further information, split by language as well.
+For more details on proper management of credentials and secrets in source control, and handling an accidental commit of secrets to source control, please refer to the [Secrets Management](./working-with-secrets.md) document which has further information, split by language as well.
 
-As an extra security measure, apply [credential scanning](https://neoito-hub.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/secret-management/recipes/detect-secrets/) in your CI/CD pipeline.
+As an extra security measure, apply credential scanning in your CI/CD pipeline.

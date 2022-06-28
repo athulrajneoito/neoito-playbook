@@ -2,7 +2,7 @@
 
 ## Style Guide
 
-[CSE](../../CSE.md) developers use [prettier](https://prettier.io/) to do code formatting for JavaScript.
+Developers use [prettier](https://prettier.io/) to do code formatting for JavaScript.
 
 Using an automated code formatting tool like Prettier enforces a well accepted style guide that was collaboratively built by a wide range of companies including Microsoft, Facebook, and AirBnB.
 
@@ -141,7 +141,7 @@ As an alternative [husky](https://github.com/typicode/husky) can be considered t
 
 ## Code Review Checklist
 
-In addition to the [Code Review Checklist](../process-guidance/reviewer-guidance.md) you should also look for these JavaScript and TypeScript specific code review items.
+In addition to the [Code Review Checklist](../pull-requests/reviewer-guidance.md) you should also look for these JavaScript and TypeScript specific code review items.
 
 ### Javascript
 
