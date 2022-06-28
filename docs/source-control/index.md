@@ -11,13 +11,13 @@ Consistency is important, so agree to the approach as a team before starting to 
 When creating a new repository, the team should at least do the following
 
 - Agree on the **branch**, **release,** and **merge strategy**
-- Define the merge strategy ([linear or non-linear](https://neoito-hub.github.io/code-with-engineering-playbook/source-control/merge-strategies/))
-- Lock the default branch and merge using [pull requests (PRs)](https://neoito-hub.github.io/code-with-engineering-playbook/code-reviews/pull-requests/)
-- Agree on [branch naming](https://neoito-hub.github.io/code-with-engineering-playbook/source-control/naming-branches/) (e.g. user/your\_alias/feature\_name)
-- Establish [branch/PR policies](https://neoito-hub.github.io/code-with-engineering-playbook/code-reviews/pull-requests/)
+- Define the merge strategy ([linear or non-linear](../source-control/merge-strategies.md))
+- Lock the default branch and merge using [pull requests (PRs)](../pull-requests/index.md)
+- Agree on [branch naming](./naming-branches.md) (e.g. user/your\_alias/feature\_name)
+- Establish [branch/PR policies](../pull-requests/index.md)
 - For public repositories the default branch should contain the following files:
-  - [LICENSE](https://neoito-hub.github.io/code-with-engineering-playbook/resources/templates/LICENSE)
-  - [README.md](https://neoito-hub.github.io/code-with-engineering-playbook/resources/templates/)
-  - [CONTRIBUTING.md](https://neoito-hub.github.io/code-with-engineering-playbook/resources/templates/CONTRIBUTING/)
+  - LICENSE
+  - README.md
+  - CONTRIBUTING.md
 ## Contributing to an existing repository
 When working on an existing project, git clone the repository and ensure you understand the team's branch, merge and release strategy (e.g. through the project [CONTRIBUTING.md file](https://blog.github.com/2012-09-17-contributing-guidelines/))

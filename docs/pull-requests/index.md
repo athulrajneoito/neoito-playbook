@@ -4,14 +4,14 @@ Changes to any main codebase - main branch in Git repository, for example - must
 
 Pull requests enable:
 
-* Code inspection - see [Code Reviews](./README.md)
+* Code inspection - see [Code Reviews](../code-reviews/index.md)
 * Running automated qualification of the code
   * Linters
   * Compilation
   * Unit tests
   * Integration tests etc.
 
-The requirements of pull requests can and should be enforced by policies, which can be set in the most modern version control and work item tracking systems. See [Evidence and Measures section](./evidence-and-measures/README.md) for more information.
+The requirements of pull requests can and should be enforced by policies, which can be set in the most modern version control and work item tracking systems.
 
 ## General Process
 
@@ -22,8 +22,8 @@ The requirements of pull requests can and should be enforced by policies, which 
     * Ensure the code compiles and runs without errors or warnings
     * Write and/or update tests to cover the changes and make sure all new and existing tests pass
     * Write and/or update the documentation to match the changes
-1. Once convinced the criteria above are met, create and submit a new pull request adhering to the [pull request template](pull-request-template/pull-request-template.md)
-1. Follow the [code review](./process-guidance/README.md) process to merge the changes to the main codebase
+1. Once convinced the criteria above are met, create and submit a new pull request adhering to the [pull request template](../pull-requests/pr-template.md)
+1. Follow the [code review](../code-reviews/index.md) process to merge the changes to the main codebase
 
 The following diagram illustrates this approach.
 
@@ -78,7 +78,7 @@ One popular specification for open-source projects and others is the [Convention
 
 The `<type>` in this message can be selected from a list of types defined by the team, but many projects use the [list of commit types from the Angular open-source project](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type). It should be clear that `scope`, `body` and `footer` elements are **optional**, but having a required `type` and short description enables the features mentioned above.
 
-See also [Pull Request Template](pull-request-template/pull-request-template.md)
+See also [Pull Request Template](../pull-requests//pr-template.md)
 
 ## Resources
 
