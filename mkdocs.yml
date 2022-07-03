@@ -186,10 +186,13 @@ nav:
       - How to upgrade: upgrade.md
 
     - DevOps: 
-      - Introduction: 
-        - devops/README.md
-      - CI/CD: 
-        - devops/cicd/README.md
+      - Introduction: devops/README.md
+      - CI/CD:
+        - CI/CD: devops/cicd/README.md
+        - Continuous Integration: devops/continuous_integration.md
+        - Continuous Delivery : devops/continuous_delivery.md
+        - CI/CD Pipelines: devops/pipelines.md
+
 
     - Source Control:
       - Goals: source-control/README.md
