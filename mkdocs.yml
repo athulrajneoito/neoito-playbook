@@ -87,6 +87,10 @@ theme:
   icon:
     logo: logo
 
+watch:
+- material
+
+
 # Plugins
 # plugins:
 #   - search
@@ -171,12 +175,86 @@ nav:
     # - Philosophy: philosophy.md
     # - Alternatives: alternatives.md
     # - License: license.md
-
-    - Design:
+    - Contents:
+      - Introduction:
+        - introduction/index.md
+      - Agile:
+        - agile/README.md
+        - What is agile: agile/what-is-agile/README.md
+        - Core expectations: agile/core-expectations/README.md
+        - Basics:
+          - agile/basics/README.md
+          - Backlog Management: agile/backlog-management/README.md
+          - Ceremonies: agile/basics/ceremonies.md
+          - Roles: agile/basics/roles.md
+          - Sprints: agile/basics/sprints.md
+          - Sprint Review: agile/basics/sprint-review.md
+          - Sprint Planning Process: agile/basics/sprint-planning-process.md
+          - Champion Trust: agile/basics/champion-trust.md
+        - Backlog management:
+          - agile/backlog-management/README.md
+          - Product backlog: https://scrumguides.org/scrum-guide.html#product-backlogagile/backlog-management/product-backlog/README.md
+          - Sprint backlog: https://scrumguides.org/scrum-guide.html#sprint-backlog
+          - Acceptance criteria: agile/backlog-management/acceptance-criteria/README.md
+          - Definition of Done: https://scrumguides.org/scrum-guide.html#increment
+          - Definition of Ready: https://www.scrum.org/resources/blog/walking-through-definition-ready
+          - Estimation Basics in Agile: https://www.scrum.org/resources/blog/what-scrum-says-about-estimates
+        - Collaboration:
+          - agile/collaboration/README.md
+          - Social Question of the Day: agile/collaboration/social-question-of-the-day.md
+          - Engagement Team Development: agile/collaboration/engagement-team-development.md
+          - Virtual Collaboration and Pair Programming: agile/collaboration/virtual-collaboration-and-pair-program.md
+        - Effective Organization:
+          - agile/effective-organization/README.md
+          - Delivery Plan: agile/effective-organization/delivery-plan.md
+          - Scrum of Scrums: agile/effective-organization/scrum-of-scrums.md
+        - Team Agreements:
+          - agile/team-agreements/README.md
+          - Definition of Done: agile/team-agreements/definition-of-done.md
+          - Definition of Ready: agile/team-agreements/definition-of-ready.md
+          - Team Manifesto: agile/team-agreements/team-manifesto.md
+          - Working Agreements: agile/team-agreements/working-agreements.md
+      - Project Planning and Management:
+        - project-planning-and-management/README.md
+        - Structure of a Sprint: project-planning-and-management/structure-of-sprint.md
+        - Planning:
+          - project-planning-and-management/planning/project-plan.md
+          - Create Project Plans: project-planning-and-management/planning/create-project-plan.md
+          - Planning Templates: project-planning-and-management/planning/planning-templates.md
+        - Management:
+          - project-planning-and-management/management/why-project-management-important.md
+          - Phases:
+            - project-planning-and-management/management/phases/phases.md
+            - Initiating: project-planning-and-management/management/phases/initiating.md
+            - Planning: project-planning-and-management/management/phases/planning.md
+            - Execution: project-planning-and-management/management/phases/execution.md
+            - Monitoring: project-planning-and-management/management/phases/monitoring.md
+            - Closing: project-planning-and-management/management/phases/closing.md
+      - Source Control:
+        - source-control/index.md
+        - Commit Best Practices: source-control/commit-best-practices.md
+        - Component Versioning: source-control/component-versioning.md
+        - Merge strategies: source-control/merge-strategies.md
+        - Naming Branches: source-control/naming-branches.md
+        - Working with secrets: source-control/working-with-secrets.md
+      - Git Guidance:
+        - git-guidance/index.md
+      - Pull Requests:
+        - pull-requests/index.md
+        - Author Guidance: pull-requests/author-guidance.md
+        - Reviewer Guidance: pull-requests/reviewer-guidance.md
+        - Pull Request Template: pull-requests/pr-template.md
+      - Code Reviews:
+        - code-reviews/index.md
+        - JavaScript/TypeScript Code Reviews: code-reviews/js-ts-code-review.md
       - Design:
         - design/README.md
-        - Design Patterns: design/design-patterns/README.md
+        - Design Patterns:
+          - design/design-patterns/README.md
+          - Object-Oriented Design Reference: design/design-patterns/object-oriented-design-reference/README.md
+          - REST API Design Guidance: design/design-patterns/rest-api-design-guidance/README.md
         - Design Reviews: design/design-reviews/README.md
+<<<<<<< HEAD
     - Developer:
       - developer-experience/README.md
            
@@ -208,6 +286,20 @@ nav:
         - Basic Git Workflow: source-control/git_guidance/git-workflow/README.md
 
           
+=======
+      - Developer:
+        - developer-experience/README.md
+
+
+      - DevOps:
+        - Introduction:
+          - devops/README.md
+        - CI/CD:
+          - devops/cicd/README.md
+
+
+
+>>>>>>> origin
   # - Setup:
   #   - Changing the colors: setup/changing-the-colors.md
   #   - Changing the fonts: setup/changing-the-fonts.md
