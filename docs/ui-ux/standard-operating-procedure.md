@@ -33,14 +33,13 @@ ___
 
  Moodboard is an arrangement of images, materials, pieces of text, etc. intended to evoke or project a particular style or concept.
 
- ## Procedure
- ___
-
-  **Step 1: Project Overview**
+## Procedure
+___
+**Step 1: Project Overview**
 
   The project needs to be overviewed by the department and the disussions will be overviewed with Business Analysts to collect requirements. 
 
-  **Step 2. Questionnaire**
+**Step 2. Questionnaire**
   
 Questainnaires  and inputs will be collected from the clients for the effective overview of the projects. 
 
