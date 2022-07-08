@@ -184,7 +184,6 @@ nav:
         - Core expectations: agile/core-expectations/README.md
         - Basics:
           - agile/basics/README.md
-          - Backlog Management: agile/backlog-management/README.md
           - Backlog management:
             - agile/backlog-management/README.md
             - Product backlog: https://scrumguides.org/scrum-guide.html#product-backlogagile/backlog-management/product-backlog/README.md
