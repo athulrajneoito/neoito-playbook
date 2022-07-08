@@ -254,6 +254,39 @@ nav:
           - Object-Oriented Design Reference: design/design-patterns/object-oriented-design-reference/README.md
           - REST API Design Guidance: design/design-patterns/rest-api-design-guidance/README.md
         - Design Reviews: design/design-reviews/README.md
+<<<<<<< HEAD
+    - Developer:
+      - developer-experience/README.md
+           
+    - Business Analysis:
+      - Introduction: business_analysis/README.md
+      - Business Analyst(BA):
+        - Responsibilities: business_analysis/responsibilities.md
+        - Process: business_analysis/process.md
+        - Tools: business_analysis/tools.md
+        - MoSCoW Prioritization: business_analysis/moscow.md
+
+    - Changelog:
+      - changelog/index.md
+      - How to upgrade: upgrade.md
+
+    - DevOps: 
+      - Introduction: devops/README.md
+      - CI/CD:
+        - CI/CD: devops/cicd/README.md
+        - Continuous Integration: devops/continuous_integration.md
+        - Continuous Delivery : devops/continuous_delivery.md
+        - CI/CD Pipelines: devops/pipelines.md
+
+
+    - Source Control:
+      - Goals: source-control/README.md
+      - Git Guidance: 
+        - source-control/git_guidance/README.md
+        - Basic Git Workflow: source-control/git_guidance/git-workflow/README.md
+
+          
+=======
       - Developer:
         - developer-experience/README.md
 
@@ -266,6 +299,7 @@ nav:
 
 
 
+>>>>>>> origin
   # - Setup:
   #   - Changing the colors: setup/changing-the-colors.md
   #   - Changing the fonts: setup/changing-the-fonts.md
