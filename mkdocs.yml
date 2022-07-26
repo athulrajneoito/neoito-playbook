@@ -186,12 +186,12 @@ nav:
           - agile/basics/README.md
           - Backlog management:
             - agile/backlog-management/README.md
-            - Product backlog: https://scrumguides.org/scrum-guide.html#product-backlogagile/backlog-management/product-backlog/README.md
-            - Sprint backlog: https://scrumguides.org/scrum-guide.html#sprint-backlog
+            - Product backlog: agile/backlog-management/product-backlog.md
+            - Sprint backlog: agile/backlog-management/sprint-backlog.md
             - Acceptance criteria: agile/backlog-management/acceptance-criteria/README.md
             - Definition of Done: agile/team-agreements/definition-of-done.md
             - Definition of Ready: agile/team-agreements/definition-of-ready.md
-            - Estimation Basics in Agile: https://www.scrum.org/resources/blog/what-scrum-says-about-estimates
+            - Estimation Basics in Agile: agile/backlog-management/estimation-basics-in-agile.md
           - Ceremonies: agile/basics/ceremonies.md
           - Roles: agile/basics/roles.md
           - Sprints: agile/basics/sprints.md
