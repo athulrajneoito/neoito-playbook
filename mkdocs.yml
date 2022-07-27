@@ -230,8 +230,7 @@ nav:
         - Merge strategies: source-control/merge-strategies.md
         - Naming Branches: source-control/naming-branches.md
         - Working with secrets: source-control/working-with-secrets.md
-      - Git Guidance:
-        - git-guidance/index.md
+        - Git Guidance: git-guidance/index.md
       - Pull Requests:
         - pull-requests/index.md
         - Author Guidance: pull-requests/author-guidance.md
@@ -255,7 +254,6 @@ nav:
         #- Business Analyst(BA):
         - Responsibilities: business_analysis/responsibilities.md
         - Process: business_analysis/process.md
-        - Artifacts: business_analysis/artifacts.md
         - Tools: business_analysis/tools.md
         - MoSCoW Prioritization: business_analysis/moscow.md
       - Project Workflow: 
