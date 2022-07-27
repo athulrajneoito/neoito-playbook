@@ -258,16 +258,17 @@ nav:
         - Artifacts: business_analysis/artifacts.md
         - Tools: business_analysis/tools.md
         - MoSCoW Prioritization: business_analysis/moscow.md
+      - Project Workflow: 
+        - Development Process: project_workflow/dev_process.md
+        - Project Artifacts: project_workflow/artifacts.md
       - Changelog:
         - changelog/index.md
         - How to upgrade: upgrade.md
       - DevOps: 
         - Introduction: devops/README.md
-        - CI/CD:
-          - CI/CD: devops/cicd/README.md
-          - Continuous Integration: devops/continuous_integration.md
-          - Continuous Delivery : devops/continuous_delivery.md
-          - CI/CD Pipelines: devops/pipelines.md
+        - Continuous Integration: devops/continuous_integration.md
+        - Continuous Delivery : devops/continuous_delivery.md
+        - CI/CD Pipelines: devops/pipelines.md
 
       - Source Control:
         - Goals: source-control/README.md
