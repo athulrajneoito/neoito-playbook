@@ -23,75 +23,214 @@
 {% extends "overrides/main.html" %}
 
 <!-- Render hero under tabs -->
-{% block tabs %}
-  {{ super() }}
+{% block tabs %} {{ super() }}
 
-  <!-- Additional styles for landing page -->
-  <style>
+<!-- Additional styles for landing page -->
+<style>
+  /* Application header should be static for the landing page */
+  .md-header {
+    position: initial;
+  }
 
-    /* Application header should be static for the landing page */
-    .md-header {
-      position: initial;
-    }
+  /* Remove spacing, as we cannot hide it completely */
+  .md-main__inner {
+    margin: 0;
+  }
 
-    /* Remove spacing, as we cannot hide it completely */
-    .md-main__inner {
-      margin: 0;
-    }
+  /* Hide main content for now */
+  .md-content {
+    display: none;
+  }
 
-    /* Hide main content for now */
-    .md-content {
+  /* Hide table of contents */
+  @media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
       display: none;
     }
+  }
 
-    /* Hide table of contents */
-    @media screen and (min-width: 60em) {
-      .md-sidebar--secondary {
-        display: none;
-      }
+  /* Hide navigation */
+  @media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+      display: none;
     }
+  }
+</style>
 
-    /* Hide navigation */
-    @media screen and (min-width: 76.25em) {
-      .md-sidebar--primary {
-        display: none;
-      }
-    }
-  </style>
+<!-- Hero for landing page -->
+<section class="mdx-container">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <!-- Hero image -->
 
-  <!-- Hero for landing page -->
-  <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-
-        <!-- Hero image -->
-
-        <!-- Hero content -->
-        <div class="mdx-hero__content">
-          <h1>Want to code? <br> Code with our engineering constitution
-            </h1>
-            <p>Our highest priority is to
-              satisfy the customer through
-              early and continuous delivery
-              of high quality valuable software</p>
-          <a
-            href="{{ page.next_page.url | url }}"
-            title="{{ page.next_page.title | e }}"
-            class="md-button md-button--primary"
-          >
-            Quick start
-          </a>
-        </div>
+      <!-- Hero content -->
+      <div class="mdx-hero__content">
+        <h1>
+          Want to code? <br />
+          Code with our engineering constitution
+        </h1>
+        <p>
+          Our highest priority is to satisfy the customer through early and
+          continuous delivery of high quality valuable software
+        </p>
+        <a
+          href="{{ page.next_page.url | url }}"
+          title="{{ page.next_page.title | e }}"
+          class="md-button md-button--primary"
+        >
+          Let's Start
+        </a>
       </div>
     </div>
-  </section>
-  <section>
-  </section>
+  </div>
+</section>
+<!-- <section>
+  <div class="main">
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <a href="/introduction" class="nav-button nav-button--primary">
+            Introduction
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <a href="/agile/" class="nav-button nav-button--primary">
+            Agile
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <a
+            href="/project-planning-and-management/"
+            class="nav-button nav-button--primary"
+          >
+            Project Management
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <a href="/source-control/" class="nav-button nav-button--primary">
+            Source Control
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+
+      <li class="cards_item">
+        <div class="card">
+          <a href="/git-guidance/" class="nav-button nav-button--primary">
+            Git Guidance
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <a href="/pull-requests/" class="nav-button nav-button--primary">
+            Pull Requests
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <a href="/code-reviews/" class="nav-button nav-button--primary">
+            Code Reviews
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <a href="/design/" class="nav-button nav-button--primary">
+            Design
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <a href="/developer-experience/" class="nav-button nav-button--primary">
+            Developer
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <a href="/devops/" class="nav-button nav-button--primary">
+            DevOps
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section> -->
+<section class="main">
+  <h2>Quick Links</h2>
+  <ul class="list-wrapper">
+    <li class="list-item"><a href="/introduction/">Introduction</a></li>
+    <li class="list-item"><a href="/agile">Aglie</a></li>
+    <li class="list-item"><a href="/project-planning-and-management/">Project Planning </a></li>
+    <li class="list-item"><a href="/source-control/">Source Control</a></li>
+    <li class="list-item"><a href="/git-guidance/">Git Guidance</a></li>
+    <li class="list-item"><a href="/pull-requests/">Pull Requests</a></li>
+    <li class="list-item"><a href="/code-reviews/">Code Reviews</a></li>
+    <li class="list-item"><a href="/design">Design</a></li>
+    <li class="list-item"><a href="/developer-experience/">Developer</a></li>
+    <li class="list-item"><a href="/ui-ux/process-flow/">UI/UX</a></li>
+    <li class="list-item"><a href="/devops/">DevOps</a></li>
+  </ul>
+</section>
 {% endblock %}
-
-
-
- 
 
 <!-- Content -->
 {% block content %}{% endblock %}
