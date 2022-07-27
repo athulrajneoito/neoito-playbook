@@ -248,6 +248,9 @@ nav:
         - Design Reviews: design/design-reviews/README.md
       - Developer:
         - developer-experience/README.md
+      - UI/UX:
+        - Process Flow: ui-ux/process-flow.md
+        - Standard Procedure: ui-ux/standard-operating-procedure.md
            
       - Requirement Gathering & Analysis:
         - Introduction: business_analysis/README.md
@@ -268,13 +271,7 @@ nav:
         - Continuous Delivery : devops/continuous_delivery.md
         - CI/CD Pipelines: devops/pipelines.md
 
-      - Source Control:
-        - Goals: source-control/README.md
-        - Git Guidance: 
-          - source-control/git_guidance/README.md
-          - Basic Git Workflow: source-control/git_guidance/git-workflow/README.md
-
-
+    
 
 
 
