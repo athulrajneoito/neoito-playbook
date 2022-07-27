@@ -267,12 +267,6 @@ nav:
           - Continuous Delivery : devops/continuous_delivery.md
           - CI/CD Pipelines: devops/pipelines.md
 
-      - Source Control:
-        - Goals: source-control/README.md
-        - Git Guidance: 
-          - source-control/git_guidance/README.md
-          - Basic Git Workflow: source-control/git_guidance/git-workflow/README.md
-
 
 
 
