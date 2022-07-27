@@ -250,13 +250,14 @@ nav:
       - Developer:
         - developer-experience/README.md
            
-      - Business Analysis:
+      - Requirement Gathering & Analysis:
         - Introduction: business_analysis/README.md
-        - Business Analyst(BA):
-          - Responsibilities: business_analysis/responsibilities.md
-          - Process: business_analysis/process.md
-          - Tools: business_analysis/tools.md
-          - MoSCoW Prioritization: business_analysis/moscow.md
+        #- Business Analyst(BA):
+        - Responsibilities: business_analysis/responsibilities.md
+        - Process: business_analysis/process.md
+        - Artifacts: business_analysis/artifacts.md
+        - Tools: business_analysis/tools.md
+        - MoSCoW Prioritization: business_analysis/moscow.md
       - Changelog:
         - changelog/index.md
         - How to upgrade: upgrade.md

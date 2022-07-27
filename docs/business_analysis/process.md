@@ -43,3 +43,4 @@ This is the final stage of the development process. It’s usually considered th
 **Formulating the next backlog.** Based on gathered feedback, the BA shapes the volume of business issues to improve, change, complete, or remove. This is how the backlog for a new development round appears.
 
 **Deliverable:** a maintained and improved business software product
+
