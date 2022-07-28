@@ -57,10 +57,10 @@ theme:
     - navigation.indexes
     # - navigation.instant
     # - navigation.prune
-    # - navigation.sections
+    - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
-    # - navigation.top
+    - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
@@ -230,8 +230,7 @@ nav:
         - Merge strategies: source-control/merge-strategies.md
         - Naming Branches: source-control/naming-branches.md
         - Working with secrets: source-control/working-with-secrets.md
-      - Git Guidance:
-        - git-guidance/index.md
+        - Git Guidance: git-guidance/index.md
       - Pull Requests:
         - pull-requests/index.md
         - Author Guidance: pull-requests/author-guidance.md
@@ -252,22 +251,27 @@ nav:
       - UI/UX:
         - Process Flow: ui-ux/process-flow.md
         - Standard Procedure: ui-ux/standard-operating-procedure.md
-      - Business Analysis:
+           
+      - Requirement Gathering & Analysis:
         - Introduction: business_analysis/README.md
-        - Business Analyst(BA):
-          - Responsibilities: business_analysis/responsibilities.md
-          - Process: business_analysis/process.md
-          - Tools: business_analysis/tools.md
-          - MoSCoW Prioritization: business_analysis/moscow.md
+        #- Business Analyst(BA):
+        - Responsibilities: business_analysis/responsibilities.md
+        - Process: business_analysis/process.md
+        - Tools: business_analysis/tools.md
+        - MoSCoW Prioritization: business_analysis/moscow.md
+      - Project Workflow: 
+        - Development Process: project_workflow/dev_process.md
+        - Project Artifacts: project_workflow/artifacts.md
+      - Changelog:
+        - changelog/index.md
+        - How to upgrade: upgrade.md
       - DevOps: 
         - Introduction: devops/README.md
-        - CI/CD:
-          - CI/CD: devops/cicd/README.md
-          - Continuous Integration: devops/continuous_integration.md
-          - Continuous Delivery : devops/continuous_delivery.md
-          - CI/CD Pipelines: devops/pipelines.md
+        - Continuous Integration: devops/continuous_integration.md
+        - Continuous Delivery : devops/continuous_delivery.md
+        - CI/CD Pipelines: devops/pipelines.md
 
-
+    
 
 
 
