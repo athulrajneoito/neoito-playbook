@@ -1285,6 +1285,7 @@ html .md-footer-meta.md-typeset a:is(:focus, :hover) {
   display: flex;
   align-items: center;
   padding: 0 0.2rem;
+  height: 70px;
 }
 .md-header__button {
   position: relative;
