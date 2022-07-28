@@ -219,6 +219,8 @@ nav:
           - Architecture Phase: project-planning-and-management/project-flow/architecture-phase.md
           - Development Phase: project-planning-and-management/project-flow/development-phase.md
           - Testing Phase: project-planning-and-management/project-flow/qa-phase.md
+          - Deployment Phase: project-planning-and-management/project-flow/deployment-phase.md
+          - Post Production: project-planning-and-management/project-flow/post-production-phase.md
           
       - Source Control:
         - source-control/index.md
