@@ -182,21 +182,19 @@ nav:
         - agile/README.md
         - What is agile: agile/what-is-agile/README.md
         - Core expectations: agile/core-expectations/README.md
-        - Basics:
-          - agile/basics/README.md
-          - Backlog management:
-            - agile/backlog-management/README.md
-            - Product backlog: agile/backlog-management/product-backlog.md
-            - Sprint backlog: agile/backlog-management/sprint-backlog.md
-            - Acceptance criteria: agile/backlog-management/acceptance-criteria/README.md
-            - Definition of Done: agile/team-agreements/definition-of-done.md
-            - Definition of Ready: agile/team-agreements/definition-of-ready.md
-            - Estimation Basics in Agile: agile/backlog-management/estimation-basics-in-agile.md
-          - Ceremonies: agile/basics/ceremonies.md
-          - Roles: agile/basics/roles.md
-          - Sprints: agile/basics/sprints.md
-          - Sprint Review: agile/basics/sprint-review.md
-          - Sprint Planning Process: agile/basics/sprint-planning-process.md
+        - Backlog Management:
+          - agile/backlog-management/README.md
+          - Product backlog: agile/backlog-management/product-backlog.md
+          - Sprint backlog: agile/backlog-management/sprint-backlog.md
+          - Acceptance criteria: agile/backlog-management/acceptance-criteria/README.md
+          - Definition of Done: agile/team-agreements/definition-of-done.md
+          - Definition of Ready: agile/team-agreements/definition-of-ready.md
+          - Estimation Basics in Agile: agile/backlog-management/estimation-basics-in-agile.md
+        - Ceremonies: agile/basics/ceremonies.md
+        - Roles: agile/basics/roles.md
+        - Sprints: agile/basics/sprints.md
+        - Sprint Review: agile/basics/sprint-review.md
+        - Sprint Planning Process: agile/basics/sprint-planning-process.md
         - Effective Organization:
           - agile/effective-organization/README.md
           - Delivery Plan: agile/effective-organization/delivery-plan.md
@@ -206,22 +204,7 @@ nav:
           - Definition of Done: agile/team-agreements/definition-of-done.md
           - Definition of Ready: agile/team-agreements/definition-of-ready.md
           - Team Manifesto: agile/team-agreements/team-manifesto.md
-          - Working Agreements: agile/team-agreements/working-agreements.md
-      - Project Planning and Management:
-        - project-planning-and-management/README.md
-        - Structure of a Sprint: project-planning-and-management/structure-of-sprint.md
-        - PM Process: project-planning-and-management/pm-process.md
-        - PM Artifacts: project-planning-and-management/artifacts.md
-        - RACI Matrix: project-planning-and-management/raci-matrix.md
-        - Project Flow: 
-          - project-planning-and-management/project-flow/project-flow.md
-          - Requirement Phase: project-planning-and-management/project-flow/requirement-phase.md
-          - Architecture Phase: project-planning-and-management/project-flow/architecture-phase.md
-          - Development Phase: project-planning-and-management/project-flow/development-phase.md
-          - Testing Phase: project-planning-and-management/project-flow/qa-phase.md
-          - Deployment Phase: project-planning-and-management/project-flow/deployment-phase.md
-          - Post Production: project-planning-and-management/project-flow/post-production-phase.md
-          
+          - Working Agreements: agile/team-agreements/working-agreements.md        
       - Source Control:
         - source-control/index.md
         - Commit Best Practices: source-control/commit-best-practices.md
@@ -261,6 +244,15 @@ nav:
       - Project Workflow: 
         - Development Process: project_workflow/dev_process.md
         - Project Artifacts: project_workflow/artifacts.md
+        - Structure of a Sprint: project_workflow/structure-of-sprint.md
+        - RACI Matrix: project_workflow/raci-matrix.md
+        - SDLC: 
+          - Requirement Phase: project_workflow/project-flow/requirement-phase.md
+          - Architecture Phase: project_workflow/project-flow/architecture-phase.md
+          - Development Phase: project_workflow/project-flow/development-phase.md
+          - Testing Phase: project_workflow/project-flow/qa-phase.md
+          - Deployment Phase: project_workflow/project-flow/deployment-phase.md
+          - Post Production: project_workflow/project-flow/post-production-phase.md
       - Changelog:
         - changelog/index.md
         - How to upgrade: upgrade.md

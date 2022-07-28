@@ -16,4 +16,7 @@ RACI stands for Responsible Accountable Consulted Informed. While its origins ar
 The above four types of association of a role to a task represented in a simple task vs. role diagram or matrix is called RACI (pronounced ‘racey’) matrix. So basically the RACI matrix is a responsibility assignment matrix (RAM), designed to assign tasks, activities, responsibilities, accountability, decision making, support to team members of a process/project, and clarify expectations on the level of their participation.” Here is the RACI matrix of NeoITO:
 
 
-### Matrix image will come heree--------------------->
+
+![RACI1](./images/raci1.png)
+
+![RACI2](./images/raci2.jpg)
