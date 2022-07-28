@@ -1,12 +1,9 @@
 # Project Management
 
-With all of its different frameworks, jargon, and concepts, the realm of project management can have you saying to yourself, “It’s all Greek to me.” That said, project management functions a lot like a language, with key structures and details that result in real meaning.
+Project Management is a discipline about planning, monitoring, and controlling software projects, identifying the scope, estimating the work involved, and creating a project schedule. Along with it is also responsible to keep the team up to date on the project’s progress and handle problems and discuss solutions.
 
-**Project management (not to be confused with program management) is the process that guides a team’s work to accomplish all project goals within certain parameters.**
+Project management is important because it provides the leadership, motivation, and roadblock removals that help teams introduce new products or services, grow revenue, and meet other company goals.
 
-The goal of project management is producing a complete project that meets objectives. In this guide, we’ll break down how to effectively use project management — all in plain English.
+By prioritizing the use of effective project management methods and frameworks, organizations can proactively and continuously improve their workflows to avoid overspend and mistakes. During these fast-moving times, the companies that rise to the top rely on solid project management to remain efficient and productive.
 
-What is project management?
-
-Project management (PM) is defined as the framework used to guide your team to success—this includes your team objectives, tools, and techniques both over the long-term and your day-to-day work.
 

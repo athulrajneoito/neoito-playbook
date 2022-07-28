@@ -210,19 +210,16 @@ nav:
       - Project Planning and Management:
         - project-planning-and-management/README.md
         - Structure of a Sprint: project-planning-and-management/structure-of-sprint.md
-        - Planning:
-          - project-planning-and-management/planning/project-plan.md
-          - Create Project Plans: project-planning-and-management/planning/create-project-plan.md
-          - Planning Templates: project-planning-and-management/planning/planning-templates.md
-        - Management:
-          - project-planning-and-management/management/why-project-management-important.md
-          - Phases:
-            - project-planning-and-management/management/phases/phases.md
-            - Initiating: project-planning-and-management/management/phases/initiating.md
-            - Planning: project-planning-and-management/management/phases/planning.md
-            - Execution: project-planning-and-management/management/phases/execution.md
-            - Monitoring: project-planning-and-management/management/phases/monitoring.md
-            - Closing: project-planning-and-management/management/phases/closing.md
+        - PM Process: project-planning-and-management/pm-process.md
+        - PM Artifacts: project-planning-and-management/artifacts.md
+        - RACI Matrix: project-planning-and-management/raci-matrix.md
+        - Project Flow: 
+          - project-planning-and-management/project-flow/project-flow.md
+          - Requirement Phase: project-planning-and-management/project-flow/requirement-phase.md
+          - Architecture Phase: project-planning-and-management/project-flow/architecture-phase.md
+          - Development Phase: project-planning-and-management/project-flow/development-phase.md
+          - Testing Phase: project-planning-and-management/project-flow/qa-phase.md
+          
       - Source Control:
         - source-control/index.md
         - Commit Best Practices: source-control/commit-best-practices.md
