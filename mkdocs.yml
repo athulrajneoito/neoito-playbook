@@ -254,11 +254,23 @@ nav:
         - Standard Procedure: ui-ux/standard-operating-procedure.md
       - Business Analysis:
         - Introduction: business_analysis/README.md
-        - Business Analyst(BA):
-          - Responsibilities: business_analysis/responsibilities.md
-          - Process: business_analysis/process.md
-          - Tools: business_analysis/tools.md
-          - MoSCoW Prioritization: business_analysis/moscow.md
+        #- Business Analyst(BA):
+        - Responsibilities: business_analysis/responsibilities.md
+        - Process: business_analysis/process.md
+        - Tools: business_analysis/tools.md
+        - MoSCoW Prioritization: business_analysis/moscow.md
+      - Project Workflow: 
+        - Development Process: project_workflow/dev_process.md
+        - Project Artifacts: project_workflow/artifacts.md
+        - Structure of a Sprint: project_workflow/structure-of-sprint.md
+        - RACI Matrix: project_workflow/raci-matrix.md
+        - SDLC: 
+          - Requirement Phase: project_workflow/project-flow/requirement-phase.md
+          - Architecture Phase: project_workflow/project-flow/architecture-phase.md
+          - Development Phase: project_workflow/project-flow/development-phase.md
+          - Testing Phase: project_workflow/project-flow/qa-phase.md
+          - Deployment Phase: project_workflow/project-flow/deployment-phase.md
+          - Post Production: project_workflow/project-flow/post-production-phase.md
       - DevOps: 
         - Introduction: devops/README.md
         - CI/CD:

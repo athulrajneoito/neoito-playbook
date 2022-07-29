@@ -251,10 +251,16 @@ h1 {
   border-color: var(--md-primary-fg-color--light);
 }
 .list-item a {
-  font-size: 0.8rem;
-  padding: 0.6rem;
+  font-size: 1rem;
+  padding: 1.7rem;
   border: 1px solid var(--md-typeset-table-color);
   border-radius: 10px;
+}
+@media screen and (max-width: 29.9375em) {
+  .list-item a {
+    font-size: 0.8rem;
+    padding: 0.6rem;
+  }
 }
 
 @media (min-width: 40rem) {

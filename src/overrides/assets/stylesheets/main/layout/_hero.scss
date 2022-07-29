@@ -214,10 +214,14 @@ h1 {
     }
   }
   a{
-    font-size: 0.8rem;
-    padding: .6rem;
+    font-size: 1rem;
+    padding: 1.7rem;
     border: 1px solid var(--md-typeset-table-color);
     border-radius: 10px;
+    @include break-to-device(mobile portrait) {
+      font-size: 0.8rem;
+      padding: .6rem;
+    }
   }
 }
 
