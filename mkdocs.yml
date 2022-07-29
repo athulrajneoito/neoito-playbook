@@ -57,10 +57,10 @@ theme:
     - navigation.indexes
     # - navigation.instant
     # - navigation.prune
-    # - navigation.sections
+    - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
-    # - navigation.top
+    - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
@@ -182,21 +182,19 @@ nav:
         - agile/README.md
         - What is agile: agile/what-is-agile/README.md
         - Core expectations: agile/core-expectations/README.md
-        - Basics:
-          - agile/basics/README.md
-          - Backlog management:
-            - agile/backlog-management/README.md
-            - Product backlog: https://scrumguides.org/scrum-guide.html#product-backlogagile/backlog-management/product-backlog/README.md
-            - Sprint backlog: https://scrumguides.org/scrum-guide.html#sprint-backlog
-            - Acceptance criteria: agile/backlog-management/acceptance-criteria/README.md
-            - Definition of Done: agile/team-agreements/definition-of-done.md
-            - Definition of Ready: agile/team-agreements/definition-of-ready.md
-            - Estimation Basics in Agile: https://www.scrum.org/resources/blog/what-scrum-says-about-estimates
-          - Ceremonies: agile/basics/ceremonies.md
-          - Roles: agile/basics/roles.md
-          - Sprints: agile/basics/sprints.md
-          - Sprint Review: agile/basics/sprint-review.md
-          - Sprint Planning Process: agile/basics/sprint-planning-process.md
+        - Backlog Management:
+          - agile/backlog-management/README.md
+          - Product backlog: agile/backlog-management/product-backlog.md
+          - Sprint backlog: agile/backlog-management/sprint-backlog.md
+          - Acceptance criteria: agile/backlog-management/acceptance-criteria/README.md
+          - Definition of Done: agile/team-agreements/definition-of-done.md
+          - Definition of Ready: agile/team-agreements/definition-of-ready.md
+          - Estimation Basics in Agile: agile/backlog-management/estimation-basics-in-agile.md
+        - Ceremonies: agile/basics/ceremonies.md
+        - Roles: agile/basics/roles.md
+        - Sprints: agile/basics/sprints.md
+        - Sprint Review: agile/basics/sprint-review.md
+        - Sprint Planning Process: agile/basics/sprint-planning-process.md
         - Effective Organization:
           - agile/effective-organization/README.md
           - Delivery Plan: agile/effective-organization/delivery-plan.md
@@ -206,23 +204,7 @@ nav:
           - Definition of Done: agile/team-agreements/definition-of-done.md
           - Definition of Ready: agile/team-agreements/definition-of-ready.md
           - Team Manifesto: agile/team-agreements/team-manifesto.md
-          - Working Agreements: agile/team-agreements/working-agreements.md
-      - Project Planning and Management:
-        - project-planning-and-management/README.md
-        - Structure of a Sprint: project-planning-and-management/structure-of-sprint.md
-        - Planning:
-          - project-planning-and-management/planning/project-plan.md
-          - Create Project Plans: project-planning-and-management/planning/create-project-plan.md
-          - Planning Templates: project-planning-and-management/planning/planning-templates.md
-        - Management:
-          - project-planning-and-management/management/why-project-management-important.md
-          - Phases:
-            - project-planning-and-management/management/phases/phases.md
-            - Initiating: project-planning-and-management/management/phases/initiating.md
-            - Planning: project-planning-and-management/management/phases/planning.md
-            - Execution: project-planning-and-management/management/phases/execution.md
-            - Monitoring: project-planning-and-management/management/phases/monitoring.md
-            - Closing: project-planning-and-management/management/phases/closing.md
+          - Working Agreements: agile/team-agreements/working-agreements.md        
       - Source Control:
         - source-control/index.md
         - Commit Best Practices: source-control/commit-best-practices.md
@@ -230,8 +212,7 @@ nav:
         - Merge strategies: source-control/merge-strategies.md
         - Naming Branches: source-control/naming-branches.md
         - Working with secrets: source-control/working-with-secrets.md
-      - Git Guidance:
-        - git-guidance/index.md
+        - Git Guidance: git-guidance/index.md
       - Pull Requests:
         - pull-requests/index.md
         - Author Guidance: pull-requests/author-guidance.md
@@ -252,7 +233,8 @@ nav:
       - UI/UX:
         - Process Flow: ui-ux/process-flow.md
         - Standard Procedure: ui-ux/standard-operating-procedure.md
-      - Business Analysis:
+           
+      - Requirement Gathering & Analysis:
         - Introduction: business_analysis/README.md
         #- Business Analyst(BA):
         - Responsibilities: business_analysis/responsibilities.md
@@ -273,13 +255,11 @@ nav:
           - Post Production: project_workflow/project-flow/post-production-phase.md
       - DevOps: 
         - Introduction: devops/README.md
-        - CI/CD:
-          - CI/CD: devops/cicd/README.md
-          - Continuous Integration: devops/continuous_integration.md
-          - Continuous Delivery : devops/continuous_delivery.md
-          - CI/CD Pipelines: devops/pipelines.md
+        - Continuous Integration: devops/continuous_integration.md
+        - Continuous Delivery : devops/continuous_delivery.md
+        - CI/CD Pipelines: devops/pipelines.md
 
-
+    
 
 
 

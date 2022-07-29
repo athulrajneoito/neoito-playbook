@@ -1,4 +1,4 @@
-Business analysis is a professional discipline of identifying business needs and determining solutions to business problems. Solutions often include a software-systems development component, but may also consist of process improvements, organizational change or strategic planning and policy development.
+Requirement Gathering & Analysis is a discipline of identifying business needs and determining solutions to business problems. Solutions often include a software-systems development component, but may also consist of process improvements, organizational change or strategic planning and policy development.
 
 A business analyst is a member of a product development team who analyzes the business domain, documents its processes and systems, outlines business requirements, and matches a software business model with the software being built.
 
