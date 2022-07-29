@@ -253,9 +253,6 @@ nav:
           - Testing Phase: project_workflow/project-flow/qa-phase.md
           - Deployment Phase: project_workflow/project-flow/deployment-phase.md
           - Post Production: project_workflow/project-flow/post-production-phase.md
-      - Changelog:
-        - changelog/index.md
-        - How to upgrade: upgrade.md
       - DevOps: 
         - Introduction: devops/README.md
         - Continuous Integration: devops/continuous_integration.md
