@@ -1,0 +1,13 @@
+# Risk of Automation in Agile Process
+- Automated UI provides a high level of confidence, but they are slow to execute, fragile to maintain, and expensive to build. Automation may not significantly improve test productivity unless the testers know how to test
+- Unreliable tests are a major concern in automated testing. Fixing failing tests and resolving issues related to brittle tests should be a top priority in order to avoid false positives
+- If the automated test is initiated manually rather than through CI (Continuous Integration) then there is a risk that they are not regularly running and therefore may cause the failure of tests
+- Automated tests are not a replacement for exploratory manual testing. To obtain the expected quality of the product, a mixture of testing types and levels is required
+- Many commercially available automation tools provide simple features like automating the capture and replay of manual test cases. Such a tool encourages testing through the UI and leads to inherently brittle and difficult-to-maintain tests. Also, storing test cases outside the version control system creates unnecessary complexity
+- In order to save time, many times the automation test plan is poorly planned or unplanned which results in the test fail
+- A test set up and tear down procedure is usually missed out during test automation, while Performing manual testing, a test set up and tear down procedure sounds seamless
+- Productivity metrics such as the number of test cases created or executed per day can be terribly misleading and could lead to making a large investment in running useless tests
+- Members of the agile automation team must be effective consultants: approachable, cooperative, and resourceful, or this system will quickly fail
+- Automation may propose and deliver testing solutions that require too much ongoing maintenance relative to the value provided
+- Automated testing may lack the expertise to conceive and deliver effective solutions
+- Automated testing may be so successful that they run out of important problems to solve, and thus turn into unimportant problems.

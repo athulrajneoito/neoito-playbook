@@ -204,15 +204,57 @@ nav:
           - Definition of Done: agile/team-agreements/definition-of-done.md
           - Definition of Ready: agile/team-agreements/definition-of-ready.md
           - Team Manifesto: agile/team-agreements/team-manifesto.md
-          - Working Agreements: agile/team-agreements/working-agreements.md        
-      - Source Control:
-        - source-control/index.md
-        - Commit Best Practices: source-control/commit-best-practices.md
-        - Component Versioning: source-control/component-versioning.md
-        - Merge strategies: source-control/merge-strategies.md
-        - Naming Branches: source-control/naming-branches.md
-        - Working with secrets: source-control/working-with-secrets.md
-        - Git Guidance: git-guidance/index.md
+          - Working Agreements: agile/team-agreements/working-agreements.md
+      - Requirement Gathering & Analysis:
+        - Introduction: business_analysis/README.md
+        #- Business Analyst(BA):
+        - Responsibilities: business_analysis/responsibilities.md
+        - Process: business_analysis/process.md
+        - Tools: business_analysis/tools.md
+        - MoSCoW Prioritization: business_analysis/moscow.md
+      - Project Workflow:
+        - Development Process: project_workflow/dev_process.md
+        - Project Artifacts: project_workflow/artifacts.md
+        - Structure of a Sprint: project_workflow/structure-of-sprint.md
+        - RACI Matrix: project_workflow/raci-matrix.md
+        - SDLC:
+          - Requirement Phase: project_workflow/project-flow/requirement-phase.md
+          - Architecture Phase: project_workflow/project-flow/architecture-phase.md
+          - Development Phase: project_workflow/project-flow/development-phase.md
+          - Testing Phase: project_workflow/project-flow/qa-phase.md
+          - Deployment Phase: project_workflow/project-flow/deployment-phase.md
+          - Post Production: project_workflow/project-flow/post-production-phase.md
+      - Software Architecture:
+        - Architecture Work Process: architecture/architecture-work-process.md
+        - Agile Architecture: architecture/agile-architecture.md
+        - Software architecture with C4 model: architecture/architecture-c4.md
+        - Type of diagrams: architecture/type-of-diagrams.md
+        - Sequence Diagram: architecture/sequence-diagram.md
+        - Software Design Document: architecture/software-design-document.md
+        - What does an architect in the organization normally do?:
+          - architecture/index.md
+          - The Architect's Function: architecture/index.md
+          - Different types of architects: architecture/types-of-architects.md
+          - The Architect's Tasks: architecture/architects-task.md
+        - Design:
+          - design/README.md
+          - Design Patterns:
+            - design/design-patterns/README.md
+            - Object-Oriented Design Reference: design/design-patterns/object-oriented-design-reference/README.md
+            - REST API Design Guidance: design/design-patterns/rest-api-design-guidance/README.md
+          - Design Reviews: design/design-reviews/README.md
+          - Distributed Systems: design/distributed-systems.md
+      - UI/UX:
+        - Process Flow: ui-ux/process-flow.md
+        - Standard Procedure: ui-ux/standard-operating-procedure.md
+        - UX - User flow: ui-ux/user-flow.md
+      - Agile Testing:
+        - testing/agile-testing.md
+        - Strategy Implementation: testing/strategy-implementation.md
+        - The Agile Testing Quadrants: testing/agile-testing-quadrants.md
+        - QA challenges with agile software development: testing/qa-challenges-agile.md
+        - Risk of Automation in Agile Process: testing/risk-of-automation-in-agile-process.md
+        - Artifacts: testing/artifacts.md
       - Pull Requests:
         - pull-requests/index.md
         - Author Guidance: pull-requests/author-guidance.md
@@ -221,45 +263,25 @@ nav:
       - Code Reviews:
         - code-reviews/index.md
         - JavaScript/TypeScript Code Reviews: code-reviews/js-ts-code-review.md
-      - Design:
-        - design/README.md
-        - Design Patterns:
-          - design/design-patterns/README.md
-          - Object-Oriented Design Reference: design/design-patterns/object-oriented-design-reference/README.md
-          - REST API Design Guidance: design/design-patterns/rest-api-design-guidance/README.md
-        - Design Reviews: design/design-reviews/README.md
-      - Developer:
-        - developer-experience/README.md
-      - UI/UX:
-        - Process Flow: ui-ux/process-flow.md
-        - Standard Procedure: ui-ux/standard-operating-procedure.md
-           
-      - Requirement Gathering & Analysis:
-        - Introduction: business_analysis/README.md
-        #- Business Analyst(BA):
-        - Responsibilities: business_analysis/responsibilities.md
-        - Process: business_analysis/process.md
-        - Tools: business_analysis/tools.md
-        - MoSCoW Prioritization: business_analysis/moscow.md
-      - Project Workflow: 
-        - Development Process: project_workflow/dev_process.md
-        - Project Artifacts: project_workflow/artifacts.md
-        - Structure of a Sprint: project_workflow/structure-of-sprint.md
-        - RACI Matrix: project_workflow/raci-matrix.md
-        - SDLC: 
-          - Requirement Phase: project_workflow/project-flow/requirement-phase.md
-          - Architecture Phase: project_workflow/project-flow/architecture-phase.md
-          - Development Phase: project_workflow/project-flow/development-phase.md
-          - Testing Phase: project_workflow/project-flow/qa-phase.md
-          - Deployment Phase: project_workflow/project-flow/deployment-phase.md
-          - Post Production: project_workflow/project-flow/post-production-phase.md
-      - DevOps: 
+      - Source Control:
+        - source-control/index.md
+        - Commit Best Practices: source-control/commit-best-practices.md
+        - Component Versioning: source-control/component-versioning.md
+        - Merge strategies: source-control/merge-strategies.md
+        - Naming Branches: source-control/naming-branches.md
+        - Working with secrets: source-control/working-with-secrets.md
+        - Git Guidance: git-guidance/index.md
+      - DevOps:
         - Introduction: devops/README.md
         - Continuous Integration: devops/continuous_integration.md
         - Continuous Delivery : devops/continuous_delivery.md
         - CI/CD Pipelines: devops/pipelines.md
+      - Developer:
+        - developer-experience/README.md
 
-    
+
+
+
 
 
 
