@@ -253,14 +253,13 @@ nav:
         - Process Flow: ui-ux/process-flow.md
         - Standard Procedure: ui-ux/standard-operating-procedure.md
         - UX - User flow: ui-ux/user-flow.md
-      - Source Control:
-        - source-control/index.md
-        - Commit Best Practices: source-control/commit-best-practices.md
-        - Component Versioning: source-control/component-versioning.md
-        - Merge strategies: source-control/merge-strategies.md
-        - Naming Branches: source-control/naming-branches.md
-        - Working with secrets: source-control/working-with-secrets.md
-        - Git Guidance: git-guidance/index.md
+      - Agile Testing:
+        - testing/agile-testing.md
+        - Strategy Implementation: testing/strategy-implementation.md
+        - The Agile Testing Quadrants: testing/agile-testing-quadrants.md
+        - QA challenges with agile software development: testing/qa-challenges-agile.md
+        - Risk of Automation in Agile Process: testing/risk-of-automation-in-agile-process.md
+        - Artifacts: testing/artifacts.md
       - Pull Requests:
         - pull-requests/index.md
         - Author Guidance: pull-requests/author-guidance.md
@@ -269,6 +268,14 @@ nav:
       - Code Reviews:
         - code-reviews/index.md
         - JavaScript/TypeScript Code Reviews: code-reviews/js-ts-code-review.md
+      - Source Control:
+        - source-control/index.md
+        - Commit Best Practices: source-control/commit-best-practices.md
+        - Component Versioning: source-control/component-versioning.md
+        - Merge strategies: source-control/merge-strategies.md
+        - Naming Branches: source-control/naming-branches.md
+        - Working with secrets: source-control/working-with-secrets.md
+        - Git Guidance: git-guidance/index.md
       - DevOps:
         - Introduction: devops/README.md
         - Continuous Integration: devops/continuous_integration.md
@@ -276,13 +283,6 @@ nav:
         - CI/CD Pipelines: devops/pipelines.md
       - Developer:
         - developer-experience/README.md
-      - Agile Testing:
-        - testing/agile-testing.md
-        - Strategy Implementation: testing/strategy-implementation.md
-        - The Agile Testing Quadrants: testing/agile-testing-quadrants.md
-        - QA challenges with agile software development: testing/qa-challenges-agile.md
-        - Risk of Automation in Agile Process: testing/risk-of-automation-in-agile-process.md
-        - Artifacts: testing/artifacts.md
 
 
 
