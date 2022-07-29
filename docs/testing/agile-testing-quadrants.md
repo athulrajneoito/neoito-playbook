@@ -1,5 +1,5 @@
 ## The Agile Testing Quadrants
-![](images/Aspose.Words.e4d64546-c6d2-46ea-9993-efc42f6dccb5.004.png)
+![](https://www.guru99.com/images/11-2014/agile_testing_2.png)
 
 The agile testing quadrants separate the whole process in four Quadrants and help to understand how agile testing is performed.
 

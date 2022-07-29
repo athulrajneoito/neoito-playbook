@@ -9,7 +9,7 @@ Software environments are complex—and they aren’t static. New features are f
 This is where software architecture diagrams come in. They give the entire development team a visual overview making it easier to communicate ideas and key concepts in terms everyone can understand.
 
 
-# Benefits of using software architecture diagrams
+## Benefits of using software architecture diagrams
 
 In addition to the general fact that visuals help people to retain and recall information longer, software system architecture diagrams offer the following benefits:
 
@@ -17,7 +17,7 @@ In addition to the general fact that visuals help people to retain and recall in
 - Improve communication: Software architecture diagrams visualize the game plan for everyone -- aligning project goals across all teams, departments, and stakeholders. They also keep stakeholders informed of the project’s overall progress.
 - Encourage collaboration and identify areas for improvement: Visualizing the application system structure makes it easier for your team members to discuss the design, find patterns that work well, look for weak spots, and find areas to improve in a collaborative effort.
 
-# What a well-crafted software architecture diagram should include
+## What a well-crafted software architecture diagram should include
 
 A well-crafted diagram is not necessarily a detailed diagram. The purpose of the software architecture diagram is to give team members and stakeholders context. A well-crafted diagram should:
 

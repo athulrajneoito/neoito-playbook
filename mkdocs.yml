@@ -205,28 +205,6 @@ nav:
           - Definition of Ready: agile/team-agreements/definition-of-ready.md
           - Team Manifesto: agile/team-agreements/team-manifesto.md
           - Working Agreements: agile/team-agreements/working-agreements.md
-      - Source Control:
-        - source-control/index.md
-        - Commit Best Practices: source-control/commit-best-practices.md
-        - Component Versioning: source-control/component-versioning.md
-        - Merge strategies: source-control/merge-strategies.md
-        - Naming Branches: source-control/naming-branches.md
-        - Working with secrets: source-control/working-with-secrets.md
-        - Git Guidance: git-guidance/index.md
-      - Pull Requests:
-        - pull-requests/index.md
-        - Author Guidance: pull-requests/author-guidance.md
-        - Reviewer Guidance: pull-requests/reviewer-guidance.md
-        - Pull Request Template: pull-requests/pr-template.md
-      - Code Reviews:
-        - code-reviews/index.md
-        - JavaScript/TypeScript Code Reviews: code-reviews/js-ts-code-review.md
-      - Developer:
-        - developer-experience/README.md
-      - UI/UX:
-        - Process Flow: ui-ux/process-flow.md
-        - Standard Procedure: ui-ux/standard-operating-procedure.md
-        - UX - User flow: ui-ux/user-flow.md
       - Requirement Gathering & Analysis:
         - Introduction: business_analysis/README.md
         #- Business Analyst(BA):
@@ -259,8 +237,8 @@ nav:
         - Sequence Diagram: architecture/sequence-diagram.md
         - Software Design Document: architecture/software-design-document.md
         - What does an architect in the organization normally do?:
-          - architecture/architects-function.md
-          - The Architect's Function: architecture/architects-function.md
+          - architecture/index.md
+          - The Architect's Function: architecture/index.md
           - Different types of architects: architecture/types-of-architects.md
           - The Architect's Tasks: architecture/architects-task.md
         - Design:
@@ -271,6 +249,33 @@ nav:
             - REST API Design Guidance: design/design-patterns/rest-api-design-guidance/README.md
           - Design Reviews: design/design-reviews/README.md
           - Distributed Systems: design/distributed-systems.md
+      - UI/UX:
+        - Process Flow: ui-ux/process-flow.md
+        - Standard Procedure: ui-ux/standard-operating-procedure.md
+        - UX - User flow: ui-ux/user-flow.md
+      - Source Control:
+        - source-control/index.md
+        - Commit Best Practices: source-control/commit-best-practices.md
+        - Component Versioning: source-control/component-versioning.md
+        - Merge strategies: source-control/merge-strategies.md
+        - Naming Branches: source-control/naming-branches.md
+        - Working with secrets: source-control/working-with-secrets.md
+        - Git Guidance: git-guidance/index.md
+      - Pull Requests:
+        - pull-requests/index.md
+        - Author Guidance: pull-requests/author-guidance.md
+        - Reviewer Guidance: pull-requests/reviewer-guidance.md
+        - Pull Request Template: pull-requests/pr-template.md
+      - Code Reviews:
+        - code-reviews/index.md
+        - JavaScript/TypeScript Code Reviews: code-reviews/js-ts-code-review.md
+      - DevOps:
+        - Introduction: devops/README.md
+        - Continuous Integration: devops/continuous_integration.md
+        - Continuous Delivery : devops/continuous_delivery.md
+        - CI/CD Pipelines: devops/pipelines.md
+      - Developer:
+        - developer-experience/README.md
       - Agile Testing:
         - testing/agile-testing.md
         - Strategy Implementation: testing/strategy-implementation.md

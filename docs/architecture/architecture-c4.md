@@ -4,7 +4,7 @@ C4 model is a lean graphical notation technique for modeling the architecture of
 
 The C4 model was created as a way to help software development teams describe and communicate software architecture, both during up-front design sessions and when retrospectively documenting an existing codebase. It's a way to create maps of your code, at various levels of detail.
 
-![](images/Aspose.Words.e4d64546-c6d2-46ea-9993-efc42f6dccb5.001.png)
+![](https://c4model.com/img/c4-overview.png)
 
 There are four types of C4 models, each one for a different audience and containing a different level of detail. These are the context, container, components, and code diagrams that make up your software architecture model.
 

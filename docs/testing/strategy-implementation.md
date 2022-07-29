@@ -45,4 +45,6 @@ PM to provide Incident report & Maintenance log
 
 Responsibility: 50% QA; 25% dev lead,15%. PM; 10% BA
 
-![](images/Aspose.Words.e4d64546-c6d2-46ea-9993-efc42f6dccb5.003.png)
+![](images/qa-startegy.png)
+
+![](images/qa-process.png)

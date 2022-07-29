@@ -1,4 +1,4 @@
-Software Design Document
+# Software Design Document
 
 A software design document—sometimes called software design specification—is a detailed plan for developing a piece of software. An SDD should outline the finished software’s functionality (specs) and your team’s plans to build it (timeline, goals, etc.). 
 
