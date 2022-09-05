@@ -8,7 +8,7 @@ The purpose of this document is to:
 
 ![Structure Of Sprint](./images/structure-of-sprint.png)
 
-## The first week of a CSE Project
+## The first week of a Project
 
 ### Before starting the project
 
