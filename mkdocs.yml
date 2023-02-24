@@ -276,8 +276,15 @@ nav:
         - Continuous Integration: devops/continuous_integration.md
         - Continuous Delivery : devops/continuous_delivery.md
         - CI/CD Pipelines: devops/pipelines.md
-      - Developer:
+      - Developer Experience:
         - developer-experience/README.md
+      - Developer Checklists:
+        - developer-checklists/index.md
+        - Repository Checklist: developer-checklists/index.md
+        - IDE Setup Checklist: developer-checklists/ide-checklist.md
+        - Feature Development: developer-checklists/feature-dev-checklist.md
+        - Pull Request Creation: developer-checklists/pr-create-checklist.md
+        - PR Review: developer-checklists/pr-review-checklist.md
 
 
 
