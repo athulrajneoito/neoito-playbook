@@ -22,9 +22,7 @@
 site_name: NeoITO Playbook
 site_url: https://squidfunk.github.io/mkdocs-material/
 site_author: NeoITO
-site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project
+site_description: Code with our engineering constitution.Our highest priority is to satisfy the customer through early and continuous delivery of high quality valuable software
 
 # Repository
 # repo_name: squidfunk/mkdocs-material
@@ -269,6 +267,7 @@ nav:
         - Component Versioning: source-control/component-versioning.md
         - Merge strategies: source-control/merge-strategies.md
         - Naming Branches: source-control/naming-branches.md
+        - Git Process: source-control/gitprocess.md
         - Working with secrets: source-control/working-with-secrets.md
         - Git Guidance: git-guidance/index.md
       - DevOps:
