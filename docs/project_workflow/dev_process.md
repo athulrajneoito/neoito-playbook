@@ -1,5 +1,5 @@
 
-<img src="../images/Process 01.jpg"/>
+<img src="../images/Process.jpg" alt="process workflow"/>
 
 
 1. From the product backlog, stories are moved to the sprint backlog so that the developers can start working on them.
