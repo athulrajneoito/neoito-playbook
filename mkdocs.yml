@@ -263,6 +263,7 @@ nav:
         - JavaScript/TypeScript Code Reviews: code-reviews/js-ts-code-review.md
       - Source Control:
         - source-control/index.md
+        - Branching Strategies: branching-strategies/index.md
         - Commit Best Practices: source-control/commit-best-practices.md
         - Component Versioning: source-control/component-versioning.md
         - Merge strategies: source-control/merge-strategies.md
